@@ -1,0 +1,22 @@
+Name : Daniil Sen
+Id   : 160970190
+Email: dsen5@myseneca.ca
+Date : 8/3/2021
+
+This project heavily utilized operator overloading, so it was really important to understand that.
+While working with the i/o streams, you have to be careful with what data is going in/out and remains.
+During this project I had to do a lot of debugging and looking inside the buffer of istream heavily, in
+order to fix my issues. Making the UI was simpler as the the main functions were already there, and I
+learned how to do it from my c programming class. Working with c++ file i/o is a lot easier when the
+insertion operators were overloaded, so I had to make sure they were working properly. For some reason,
+stream.ignore function was a hit or miss in some functions, causing the user to have to hit enter twice.
+That took some time to figure out mostly as I gained insight in how the stream buffers work while debugging.
+I also learned to be careful with arrays of pointers, as they are different from dynamic arrays or pointers.
+I had to delete each individual pointer of the array, rather than the array itself.
+
+This course is different from the c course, as it involes a lot of object oriented designs. They were difficult
+at the start to learn. But it made writting later code simpler as most of the functionality was already there.
+The most difficult part was at the beginning trying to get my head wrapped around overloading insertion operators,
+and the i/o streams. Understanding why const was required in some areas was another challenge. But know I know how
+to use them, and how they work on a deeper level. The course did teach me some new techniques for code reuse, and
+that setting up functions in the present would help greatly in the future.
